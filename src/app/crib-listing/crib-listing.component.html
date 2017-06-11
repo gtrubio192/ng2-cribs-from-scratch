@@ -1,3 +1,7 @@
-<p>
-  crib-listing works!
-</p>
+<div *ngFor="let crib of cribs" class="container">
+  <ul>
+    <li>{{crib.type}}</li>
+    <li>{{crib.price}}</li>
+    <li>{{crib.address}}</li>
+  </ul>
+</div>

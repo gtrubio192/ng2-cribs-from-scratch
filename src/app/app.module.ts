@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CribListingComponent } from './crib-listing/crib-listing.component';
 // '@' == decorator, decorators take an object
+// NgModule tells angular how our app will fit together
 @NgModule({
   // tells our app what components we made
   declarations: [
